@@ -1,0 +1,158 @@
+$colorPrimary :#f4f4f4;
+$colorsecondery:#202020;
+$colortrendy:#d2a56d;
+
+main{
+    
+    margin:0;
+    padding:0;
+}
+
+main h2{
+    color: $colortrendy;
+}
+
+main ul  {
+    list-style: none;
+    display: flex;
+    justify-content:center;
+    margin: 0;
+    padding: 0;
+}
+
+main ul li a {
+    color: $colorsecondery;
+    margin: 0 20px 0 0;
+}
+
+main ul li a:hover,
+main ul li a:active{
+    color:$colortrendy ;
+}
+
+main h2.titl{
+    display: flex;
+    justify-content:center;
+}
+
+.section-1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.section-1 .card{
+    margin:30px;
+    flex: 1 1 300px;
+}
+
+.section-1 .card:hover{
+    opacity:0.8;
+}
+
+.section-1 .card img {
+    border-radius: 10px;
+}
+
+.card strong{
+    color:$colorsecondery;
+    margin-left: 15px;
+}
+
+.card span {
+    margin-left: 30px;
+    color: $colortrendy;
+}
+
+.section-2{
+    margin:0 auto;
+    width: 90%;
+    padding: 10px;
+}
+
+.section-2 h2{
+    margin-left:20px;
+}
+
+.section-2 button{
+    margin-left: 50px;
+}
+
+main .diff span {
+    margin:0;
+}
+
+.main-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-4{
+    padding:20px;
+    background-color: $colorsecondery;
+    flex: 1 1 50%;
+}
+
+.section-4 h4{
+    color: $colortrendy;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.section-4 h1{
+    color: $colorPrimary;
+    width: 60%;
+    margin: 10px auto;
+}
+
+.section-5{
+    width: 90%;
+    margin: 20px auto;
+}
+
+.section-5 form{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section-5 form input{
+    border: 1px $colortrendy solid; 
+    padding: 5px;
+    margin: 0 10px 10px 0;
+    flex: 1 1 40%;
+}
+
+.section-5 form button{
+    background-color: $colortrendy;
+    border: 1px $colortrendy solid;
+    padding: 5px 20px;
+    font-weight: 600;
+    color:$colorPrimary;
+    flex: 1 1 40%;
+    margin: 0 0 10px;
+}
+
+.section-5 form button:hover{
+    background-color: $colorPrimary;
+    color: $colortrendy;
+}
+
+.section-6{
+    display: flex;
+    width: 90%;
+    margin: 10px auto;
+}
+
+.section-6 ul li a {
+    border: 1px solid $colortrendy;
+    padding:10px;
+    margin: 0 10px 10px 0;
+    flex: 1 1 auto;
+}
+
+.section-6 ul li a:hover {
+    background-color: $colortrendy;
+   
+}

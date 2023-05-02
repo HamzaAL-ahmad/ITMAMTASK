@@ -1,0 +1,36 @@
+body {
+  background-color: #f4f4f4;
+}
+
+header .header-greeting {
+  margin: 0 30em;
+}
+
+.btn {
+  background-color: #f4f4f4;
+  border: 1px #d2a56d solid;
+  padding: 10px 30px;
+  font-weight: 600;
+}
+
+header div p {
+  font-size: 14px;
+}
+
+.btn:hover {
+  background-color: #d2a56d;
+}
+
+header div h1 {
+  color: #d2a56d;
+}
+
+a {
+  text-decoration: none;
+  color: #f4f4f4;
+}
+
+.material-symbols-outlined {
+  color: #f4f4f4;
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 50;
+}/*# sourceMappingURL=style.css.map */

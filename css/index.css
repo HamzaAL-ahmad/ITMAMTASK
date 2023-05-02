@@ -1,0 +1,175 @@
+header ul {
+  list-style: none;
+  display: flex;
+  width: 50%;
+  align-items: center;
+  position: relative;
+  left: 300px;
+  margin-bottom: 0;
+}
+
+header ul li {
+  margin: 15px;
+}
+
+header ul li a {
+  color: #202020;
+}
+
+header ul li a:hover {
+  color: #d2a56d;
+}
+
+header ul li h3 {
+  border: 2px #202020 solid;
+  padding: 2px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+header ul li h3:hover {
+  background-color: #f4f4f4;
+  color: #d2a56d;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+main .img {
+  padding: 90px 0;
+  margin: 0 70px;
+  border-radius: 10px;
+}
+
+.img img {
+  border-radius: 14px;
+}
+
+.img img:hover {
+  opacity: 0.7;
+}
+
+main .movment {
+  width: 25%;
+  height: 25%;
+}
+
+main .col-type {
+  display: flex;
+  margin: 15px 0;
+}
+
+main div .flex {
+  display: flex;
+  border: 1px #d2a56d solid;
+  height: 50%;
+  padding: 5px;
+  margin-top: 2px;
+}
+
+.ser > h5 {
+  margin-top: 2px;
+}
+
+div select {
+  margin: 2px 10px;
+}
+
+.flex div {
+  width: 15px;
+  height: 15px;
+  margin: 0 4px;
+  padding: 2px;
+}
+
+.flex .per {
+  background-color: #915F6D;
+}
+
+.flex .gr {
+  background-color: #008000;
+}
+
+.flex .r-g {
+  background-color: #b76e79;
+}
+
+.flex .bl {
+  background-color: #7393B3;
+}
+
+.section-1 {
+  display: flex;
+  justify-content: center;
+}
+
+.section-1 .card {
+  margin: 60px 40px;
+}
+
+.section-1 .card:hover {
+  opacity: 0.8;
+}
+
+.section-1 .card img {
+  border-radius: 10px;
+}
+
+main .titl {
+  color: #d2a56d;
+}
+
+main div .box {
+  margin: 30px 20px;
+  padding: 10px 20px;
+  background-color: #202020;
+  position: relative;
+  right: 10px;
+}
+
+main div .box span {
+  margin: 0 0 0 40px;
+  align-items: center;
+  font-size: large;
+  font-weight: 200;
+  color: #d2a56d;
+}
+
+hr {
+  width: 90px;
+  height: 2px;
+  background-color: #d2a56d;
+  margin: 5px 0 20px 5px;
+  border-radius: 4px;
+}
+
+main div > .price {
+  color: #d2a56d;
+  margin-left: 4px;
+  margin-bottom: 10px;
+}
+
+.sel {
+  display: flex;
+}
+
+.sel > span {
+  font-size: 10px;
+  margin-top: 14px;
+}
+
+.sel > select {
+  padding: 3px 2px;
+  border: #d2a56d 1px solid;
+}
+
+.ty {
+  margin: 7px;
+}
+
+main {
+  display: flex;
+}/*# sourceMappingURL=index.css.map */

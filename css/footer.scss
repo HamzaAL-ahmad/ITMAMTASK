@@ -1,0 +1,145 @@
+$colorPrimary :#f4f4f4;
+$colorsecondery:#202020;
+$colortrendy:#d2a56d;
+
+footer{
+    margin: 0;
+    background-color: $colorsecondery;
+    padding: 20px 20px 0 20px;
+    position: sticky;
+    bottom: 0;
+}
+
+footer .gabooo{
+color:$colorPrimary;
+}
+
+footer .gabooo span{
+color:$colortrendy;
+border: 3px $colortrendy solid ;
+padding: 3px 4px 3px 4px;
+font-size:20px ; 
+}
+
+footer div ul{
+list-style: none;
+    
+}
+footer div ul li{
+margin-top: 6px;
+}
+footer span {
+    margin-left: 40px;
+    color:$colorPrimary;
+} 
+
+footer p{
+    color:$colorPrimary;
+}
+
+.contact-us .email{
+    border-top: 1px $colortrendy solid;
+    border-left : 1px $colortrendy solid;
+    border-right: 1px $colortrendy solid;
+    margin-top: 15px;
+    padding:6px 4px ;
+}
+
+.contact-us .email a{ 
+padding:60px;
+
+}
+
+footer .section{
+    
+    display: flex;
+    margin: 0 200px;
+    
+}
+
+footer div .gabooo{
+    margin:0  20px;
+}
+
+footer div .links{
+    margin:0  20px;
+    
+}
+
+footer div .shopping{
+    margin:0  20px;
+
+}
+
+footer div .contact-us{
+    margin:0  20px;
+
+}
+
+.gabooo .sec{
+    margin: 0;
+}
+
+.contact-us p{
+    margin-left:40px ;
+}
+.contact-us div{
+    margin-left:40px ;
+
+}
+
+@media screen and (max-width: 768px) {
+    footer {
+        padding: 20px;
+    }
+    
+    footer .section {
+        margin: 0 50px;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    footer div {
+        margin-bottom: 20px;
+    }
+    
+    .gabooo .sec {
+        text-align: center;
+    }
+    
+    .contact-us p, .contact-us div {
+        margin-left: 0;
+        text-align: center;
+    }
+    
+    .contact-us .email a {
+        padding: 0;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    footer .section {
+        margin: 0;
+    }
+    
+    footer div {
+        margin-bottom: 10px;
+    }
+    
+    .gabooo .sec {
+        font-size: 16px;
+        text-align: center;
+    }
+    
+    .contact-us p, .contact-us div {
+        font-size: 14px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    
+    .contact-us .email a {
+        font-size: 14px;
+        padding: 10px;
+    }
+}

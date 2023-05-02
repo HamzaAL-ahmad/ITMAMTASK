@@ -1,0 +1,138 @@
+$colorPrimary: #f4f4f4;
+$colorsecondary: #202020;
+$colortrendy: #d2a56d;
+
+/* Mobile styles */
+@media (max-width: 767px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  header ul {
+    width: 100%;
+    left: 0;
+  }
+  header ul li {
+    margin: 10px;
+  }
+  main {
+    width: 100%;
+    padding: 0 10px;
+  }
+  main .img {
+    padding: 50px 0;
+    margin: 0;
+  }
+  main .movment {
+    width: 100%;
+    height: auto;
+  }
+  main div .flex {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  main div .box {
+    margin: 20px 0;
+    right: 0;
+  }
+  .sel {
+    flex-direction: column;
+  }
+  .sel > span {
+    margin-top: 5px;
+  }
+}
+
+/* Tablet styles */
+@media (min-width: 768px) and (max-width: 1023px) {
+  header ul {
+    width: 100%;
+    left: 0;
+    margin-top: 20px;
+  }
+  main {
+    width: 90%;
+    margin: 0 auto;
+  }
+  main .img {
+    padding: 90px 0;
+    margin: 0 30px;
+  }
+  main .movment {
+    width: 50%;
+    height: 50%;
+  }
+  main div .box {
+    margin: 30px 10px;
+  }
+}
+
+/* Desktop styles */
+@media (min-width: 1024px) {
+  header ul {
+    width: 50%;
+    left: 300px;
+    margin-top: 0;
+  }
+  main {
+    width: 80%;
+    margin: 0 auto;
+  }
+  main .img {
+    padding: 90px 0;
+    margin: 0 70px;
+  }
+  main .movment {
+    width: 25%;
+    height: 25%;
+  }
+  main div .box {
+    margin: 30px 20px;
+  }
+}
+
+/* Common styles */
+header {
+  background-color: $colorPrimary;
+}
+header ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 0;
+}
+header ul li {
+  margin: 15px;
+}
+header ul li a {
+  color: $colorsecondary;
+}
+header ul li a:hover {
+  color: $colortrendy;
+}
+header ul li h3 {
+  border: 2px $colorsecondary solid;
+  padding: 2px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+header ul li h3:hover {
+  background-color: $colorPrimary;
+  color: $colortrendy;
+}
+main .col-type {
+  display: flex;
+  margin: 15px 0;
+}
+.main div .flex {
+  display: flex;
+  border: 1px $colortrendy solid;
+  height: 50%;
+  padding: 5px;
+  margin-top: 2px;
+}
+.ser > h5 {
+  margin-top: 2px;
+}

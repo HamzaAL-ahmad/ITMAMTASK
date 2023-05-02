@@ -1,0 +1,72 @@
+nav {
+  background-color: #202020;
+  padding: 5px 200px;
+  display: flex;
+}
+
+nav .sec-1 {
+  display: flex;
+}
+
+nav .sec-2 {
+  display: flex;
+  margin-left: 120px;
+}
+
+nav .sec-3 {
+  display: flex;
+  height: 100%;
+}
+
+nav div ul {
+  list-style: none;
+  display: flex;
+}
+
+nav .sec-1 select {
+  margin: 4px;
+  border: none;
+  background-color: #202020;
+  color: #f4f4f4;
+}
+
+nav .sec-1 img {
+  margin-top: 20px;
+}
+
+nav .sec-2 ul li {
+  margin: 0 10px;
+}
+
+nav .sec-2 ul li a:hover {
+  color: #d2a56d;
+}
+
+nav .sec-3 form {
+  margin: 10px 0;
+  display: flex;
+  margin-left: 10px;
+}
+
+nav .sec-3 form button {
+  background-color: #d2a56d;
+  border: none;
+}
+
+nav .sec-3 form input {
+  border: #d2a56d 1px solid;
+}
+
+nav .sec-3 form label {
+  background-color: #f4f4f4;
+  margin: auto 0;
+  padding: 7px;
+}
+
+nav .sec-3 .search-bar {
+  margin-right: 4px;
+}
+
+.s-btn {
+  background-color: #202020;
+}/*# sourceMappingURL=nav.css.map */

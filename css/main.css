@@ -1,0 +1,166 @@
+main {
+  margin: 0;
+  padding: 0;
+}
+
+main h2 {
+  color: #d2a56d;
+}
+
+main ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+main ul li a {
+  color: #202020;
+  margin: 0 40px 0 0;
+}
+
+main ul li a:hover {
+  color: #d2a56d;
+}
+
+main ul li a:active {
+  color: #d2a56d;
+}
+
+main h2.titl {
+  display: flex;
+  justify-content: center;
+}
+
+.section-1 {
+  display: flex;
+  justify-content: center;
+}
+
+.section-1 .card {
+  margin: 60px 40px;
+}
+
+.section-1 .card:hover {
+  opacity: 0.8;
+}
+
+.section-1 .card img {
+  border-radius: 10px;
+}
+
+.card strong {
+  margin-left: 35px;
+  
+}
+
+.card span {
+  margin-left: 70px;
+  color: #d2a56d;
+}
+
+.section-2 {
+  margin: 0 auto;
+  width: 25%;
+  padding: 10px;
+}
+
+.section-2 h2 {
+  margin-left: 60px;
+}
+
+.section-2 button {
+  margin-left: 100px;
+}
+
+main .diff span {
+  margin: 0;
+}
+
+main .section-4 {
+  padding: 40px;
+  background-color: #202020;
+}
+
+main .section-4 h4 {
+  color: #d2a56d;
+  width: 12%;
+  margin: 0 auto;
+}
+
+main .section-4 h1 {
+  color: #f4f4f4;
+  width: 20%;
+  margin: 10px auto;
+}
+
+main .section-5 {
+  width: 50%;
+  margin: 20px auto;
+}
+
+main .section-5 form {
+  margin: auto;
+}
+
+main .section-5 form input {
+  border: 1px #d2a56d solid;
+  padding: 5px 100px 5px 20px;
+  margin: 0 30px 0 20px;
+}
+
+main .section-5 form button {
+  background-color: #d2a56d;
+  border: 1px #d2a56d solid;
+  padding: 5px 20px;
+  font-weight: 600;
+  color: #f4f4f4;
+}
+
+main .section-5 form button:hover {
+  background-color: #f4f4f4;
+  color: #d2a56d;
+}
+
+main .section-6 {
+  display: flex;
+  width: 50%;
+  margin: 10px auto;
+}
+
+main .section-6 ul li a {
+  border: 1px solid #d2a56d;
+  padding: 10px;
+  margin: 0;
+}
+
+main .section-6 ul li a:hover {
+  background-color: #d2a56d;
+  color: #202020;
+}
+
+main .section-7 {
+  width: 50%;
+  margin: 10px auto;
+  position: relative;
+  left: 500px;
+}
+
+main .shop {
+  width: 12.5%;
+  margin: 0 auto;
+}
+
+main .section-7 h2 {
+  color: #202020;
+}
+
+main .section-7 span {
+  color: #d2a56d;
+  border: #d2a56d 2px solid;
+  padding: 4px;
+  font-weight: 600;
+}
+
+main .section-7 button {
+  margin: 10px 0;
+}/*# sourceMappingURL=main.css.map */

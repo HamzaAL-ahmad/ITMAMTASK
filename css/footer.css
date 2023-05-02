@@ -1,0 +1,80 @@
+footer {
+  margin: 0;
+  background-color: #202020;
+  padding: 20px 20px 0 20px;
+  position: sticky;
+  bottom: 0;
+}
+
+footer .gabooo {
+  color: #f4f4f4;
+}
+
+footer .gabooo span {
+  color: #d2a56d;
+  border: 3px #d2a56d solid;
+  padding: 3px 4px 3px 4px;
+  font-size: 20px;
+}
+
+footer div ul {
+  list-style: none;
+}
+
+footer div ul li {
+  margin-top: 6px;
+}
+
+footer span {
+  margin-left: 40px;
+  color: #f4f4f4;
+}
+
+footer p {
+  color: #f4f4f4;
+}
+
+.contact-us .email {
+  border-top: 1px #d2a56d solid;
+  border-left: 1px #d2a56d solid;
+  border-right: 1px #d2a56d solid;
+  margin-top: 15px;
+  padding: 6px 4px;
+}
+
+.contact-us .email a {
+  padding: 60px;
+}
+
+footer .section {
+  display: flex;
+  margin: 0 200px;
+}
+
+footer div .gabooo {
+  margin: 0 20px;
+}
+
+footer div .links {
+  margin: 0 20px;
+}
+
+footer div .shopping {
+  margin: 0 20px;
+}
+
+footer div .contact-us {
+  margin: 0 20px;
+}
+
+.gabooo .sec {
+  margin: 0;
+}
+
+.contact-us p {
+  margin-left: 40px;
+}
+
+.contact-us div {
+  margin-left: 40px;
+}/*# sourceMappingURL=footer.css.map */
